@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/datd_/AndroidStudioProjects/Eventin/app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/datd_/AndroidStudioProjects/Eventin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.137" />
+        <entry key="..\:/Users/datd_/AndroidStudioProjects/Eventin/app/src/main/res/drawable/oval_button.xml" value="0.1455" />
+        <entry key="..\:/Users/datd_/AndroidStudioProjects/Eventin/app/src/main/res/drawable/search_button.xml" value="0.1455" />
+        <entry key="..\:/Users/datd_/AndroidStudioProjects/Eventin/app/src/main/res/layout/activity_main.xml" value="0.4" />
       </map>
     </option>
   </component>

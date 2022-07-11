@@ -4,15 +4,136 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gray_pewter"
+    android:scaleX="1"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <android.widget.Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_corner_button"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp"
+        android:paddingRight="10dp"
+        android:text="  ¿En dónde quieres que sea tu evento?"
+        android:textAlignment="viewStart"
+        android:textSize="14sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/jardin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jardín"
+            style="@style/chipGEntry" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/airelibre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Al aire libre" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/salonchico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salón chico" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/salonmediano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salón mediano" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/salongrande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salón grande" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/alberca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Con alberca" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/lago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En el lago" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/vistahermosa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Con vista hermosa" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/roofgarden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roof garden" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/playa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frente a la playa" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/edificio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edificio" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/aislado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lugar aislado" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/casarodante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Casa rodante" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/granja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Granja" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/raro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lugares extraños" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+</com.google.android.material.chip.ChipGroup>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
