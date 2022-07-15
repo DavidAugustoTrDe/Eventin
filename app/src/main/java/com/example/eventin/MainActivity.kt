@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun createNewPlace(v: View){
+   /* fun createNewPlace(v: View){
 
         var etNamePlace     = findViewById<EditText>(R.id.etNamePlace)
         var etStreet        = findViewById<EditText>(R.id.etStreet)
@@ -61,5 +61,5 @@ class MainActivity : AppCompatActivity() {
         tv.text = description
 
     }
-
+*/
 }

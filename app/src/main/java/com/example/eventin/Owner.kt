@@ -8,7 +8,7 @@ class Owner(name:String = "name", middlename:String? = "middlename", surname:Str
 
     private var somethingHere: String? ="Hewouw"
 
-    fun setUser(n:String, mn:String, sn:String, tn:Int, ml:String) { //all the data
+   /* fun setUser(n:String, mn:String, sn:String, tn:Int, ml:String) { //all the data
         this.name=n
         this.middlename=mn
         this.surname=sn
@@ -26,5 +26,5 @@ class Owner(name:String = "name", middlename:String? = "middlename", surname:Str
         super.sayHi()
         Toast.makeText(maincontext, "Bienvenido a tu cuenta empresarial", Toast.LENGHT_LONG).show()
     } //applied polymorphism
-
+*/
 }

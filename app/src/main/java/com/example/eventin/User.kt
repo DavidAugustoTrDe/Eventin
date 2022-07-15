@@ -6,7 +6,7 @@ open class User(protected var name:String = "name",       protected var middlena
                 protected var surname:String = "surname", protected var telNumber:Int? = 1000000000,
                 protected var mail:String = "example@company.com" ) {
 
-    fun setUser(n:String, mn:String, sn:String, tn:Int, ml:String) { //all the data
+   /* fun setUser(n:String, mn:String, sn:String, tn:Int, ml:String) { //all the data
         this.name=n
         this.middlename=mn
         this.surname=sn
@@ -30,5 +30,5 @@ open class User(protected var name:String = "name",       protected var middlena
     internal fun setMiddleName(mn: String)       { this.middlename = mn      }
     internal fun setSurName(sn: String)          { this.surname = sn         }
     internal fun setTelNumber(tn: Int)           { this.telNumber = tn       }
-
+*/
 }
