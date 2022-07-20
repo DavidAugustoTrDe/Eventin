@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/buscaexplora"
+        android:icon="@drawable/search"
+        android:title="Buscar" />
+
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/favorite"
+        android:title="Favorites" />
+
+    <item
+        android:id="@+id/misviajes"
+        android:icon="@drawable/viajeproximo"
+        android:title="Mis Viajes" />
+
+    <item
+        android:id="@+id/messages"
+        android:icon="@drawable/message"
+        android:title="Mensajes" />
+
+</menu>

@@ -5,9 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/gray_pewter"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
+    <!-- Search button -->
     <android.widget.Button
         android:id="@+id/buscar"
         android:layout_width="match_parent"
@@ -19,22 +20,20 @@
         android:autoSizeMinTextSize="12sp"
         android:autoSizeStepGranularity="2sp"
         android:autoSizeTextType="uniform"
-        android:background="@drawable/rounded_corner_button"
-        android:backgroundTint="@color/white"
+        android:background="@drawable/new_rounded_button"
         android:drawableStart="@android:drawable/ic_menu_search"
         android:paddingLeft="12dp"
-        android:paddingTop="2dp"
+        android:paddingTop="4dp"
         android:paddingRight="12dp"
         android:text="¿En dónde planeas tu evento?"
         android:textAlignment="center"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+         />
 
+    <!-- Card view (tipos de lugares debajo del search button -->
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:scrollbars="none"
         android:layout_marginTop="5dp">
 
         <LinearLayout
@@ -49,8 +48,7 @@
                 android:layout_margin="5dp"
                 app:cardCornerRadius="55dp"
                 app:cardElevation="400dp"
-                app:cardBackgroundColor="@android:color/transparent"
-                >
+                app:cardBackgroundColor="@android:color/white">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -74,14 +72,14 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_margin="5dp"
                 app:cardCornerRadius="55dp"
-                app:cardElevation="50dp"
-                app:cardBackgroundColor="@android:color/transparent"
-                >
+                app:cardElevation="400dp"
+                app:cardBackgroundColor="@android:color/white">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -105,14 +103,14 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_margin="5dp"
                 app:cardCornerRadius="55dp"
-                app:cardElevation="50dp"
-                app:cardBackgroundColor="@android:color/transparent"
-                >
+                app:cardElevation="400dp"
+                app:cardBackgroundColor="@android:color/white">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -136,14 +134,14 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_margin="5dp"
                 app:cardCornerRadius="55dp"
-                app:cardElevation="50dp"
-                app:cardBackgroundColor="@android:color/transparent"
-                >
+                app:cardElevation="400dp"
+                app:cardBackgroundColor="@android:color/white">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -173,10 +171,12 @@
 
     </HorizontalScrollView>
 
+    <!-- Botones en la parte inferior -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:layout_height="55dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@drawable/menu_bottom"
+        app:labelVisibilityMode="labeled" />
 
 </LinearLayout>

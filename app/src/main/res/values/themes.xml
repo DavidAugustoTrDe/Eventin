@@ -22,5 +22,11 @@
         <item name="chipStrokeColor">@color/blue_baby</item>
         <item name="chipStrokeWidth">2dp</item>
     </style>
+    <style name="Theme.Eventin.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Eventin.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Eventin.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
